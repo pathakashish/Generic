@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <shape android:shape="rectangle" >
+            <solid android:color="@color/button_border_color" />
+        </shape>
+    </item>
+    <item
+        android:bottom="@dimen/button_border"
+        android:left="@dimen/button_border"
+        android:right="@dimen/button_border"
+        android:top="@dimen/button_border">
+        <shape android:shape="rectangle" >
+            <gradient
+                android:angle="90"
+                android:endColor="@color/list_header_bg_start_color"
+                android:startColor="@color/list_header_bg_end_color"
+                android:type="linear" />
+        </shape>
+    </item>
+
+</layer-list>

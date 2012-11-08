@@ -1,0 +1,120 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:buttonStyle">@style/BlueButtonStyle</item>
+        <item name="android:textViewStyle">@style/TextViewStyle</item>
+        <item name="android:editTextStyle">@style/EditTextStyle</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+        <item name="android:windowBackground">@drawable/app_bg</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="EditTextStyle" parent="@android:style/Widget.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/edit_text_height</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@color/gray_text_color</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:inputType">textNoSuggestions|textVisiblePassword</item>
+        <item name="android:selectAllOnFocus">true</item>
+        <item name="android:padding">@dimen/padding_general</item>
+    </style>
+
+    <style name="TextViewStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/gray_textcolor_statelist</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:drawablePadding">@dimen/padding_general</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style name="ListViewStyle" parent="@android:style/Widget.ListView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:fastScrollEnabled">true</item>
+        <!-- <item name="android:drawSelectorOnTop">true</item> -->
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:listSelector">@drawable/list_selector_background</item>
+        <item name="android:background">@drawable/listview_bg</item>
+        <item name="android:layout_margin">@dimen/margin_general</item>
+        <item name="android:divider">@color/disabled_text_color</item>
+        <item name="android:dividerHeight">@dimen/button_border</item>
+    </style>
+
+    <style name="ButtonStyle" parent="@android:style/Widget.Button">
+        <item name="android:minWidth">@dimen/button_width</item>
+        <item name="android:layout_width">@dimen/button_width</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingRight">@dimen/padding_general</item>
+        <item name="android:paddingLeft">@dimen/padding_general</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BlueButtonStyle" parent="@style/ButtonStyle">
+        <item name="android:textColor">@color/white_textcolor_statelist</item>
+        <item name="android:background">@drawable/blue_button</item>
+    </style>
+
+    <style name="DarkBlueButtonStyle" parent="@style/BlueButtonStyle">
+        <item name="android:textColor">@color/white_textcolor_statelist</item>
+        <item name="android:background">@drawable/dark_blue_button</item>
+    </style>
+
+    <style name="RedButtonStyle" parent="@style/ButtonStyle">
+        <item name="android:textColor">@color/white_textcolor_statelist</item>
+        <item name="android:background">@drawable/red_button</item>
+    </style>
+
+    <style name="GrayButtonStyle" parent="@style/ButtonStyle">
+        <item name="android:textColor">@color/white_textcolor_statelist</item>
+        <item name="android:background">@drawable/gray_button</item>
+    </style>
+
+    <style name="CellButtonStyle" parent="@style/ButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/cell_button_height</item>
+        <item name="android:textColor">@color/gray_textcolor_statelist</item>
+        <item name="android:background">@drawable/cell_button</item>
+        <item name="android:drawableRight">@drawable/right_arrow</item>
+        <item name="android:drawablePadding">@dimen/padding_general</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style name="DarkBlueRadioButtonStyle" parent="@style/ButtonStyle">
+        <item name="android:layout_width">@dimen/radiobutton_width</item>
+        <item name="android:textColor">@color/white_textcolor_statelist</item>
+        <item name="android:button">@drawable/transparent</item>
+        <item name="android:background">@drawable/dark_blue_cornered_radiobutton</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TabButtonStyle" parent="@style/ButtonStyle">
+        <item name="android:layout_width">@dimen/tabwidget_button_width</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/tabs_button</item>
+        <item name="android:gravity">center_horizontal|bottom</item>
+        <item name="android:paddingTop">@dimen/padding_general</item>
+        <item name="android:paddingBottom">@dimen/padding_general</item>
+        <item name="android:drawablePadding">0dip</item>
+        <item name="android:textColor">@color/gray_textcolor_statelist</item>
+    </style>
+
+    <style name="DialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:buttonStyle">@style/BlueButtonStyle</item>
+        <item name="android:textViewStyle">@style/TextViewStyle</item>
+        <item name="android:editTextStyle">@style/EditTextStyle</item>
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+        <item name="android:windowBackground">@drawable/app_bg</item>
+    </style>
+
+</resources>

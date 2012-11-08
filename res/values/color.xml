@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="title_bar_gradient_start_color">#964f52</color>
+    <color name="title_bar_gradient_end_color">#6e2528</color>
+    <color name="splash_start_color">#301012</color>
+    <color name="splash_end_color">#4d1a1d</color>
+    <color name="blue_button_border_color">#e4ffffff</color>
+    <color name="button_border_color">#e4000000</color>
+    <color name="button_border_color1">#7f000000</color>
+    <color name="blue_text_color">#405b8d</color>
+    <color name="gray_text_color">#666666</color>
+    <color name="disabled_text_color">#666666</color>
+    <color name="disabled_start_color">#98ffffff</color>
+    <color name="disabled_end_color">#4cffffff</color>
+    <color name="semi_transparent_white">#4cffffff</color>
+    <color name="semi_transparent_bg">#4c0092e7</color>
+    <color name="tabwidget_bg_start_color">#222222</color>
+    <color name="tabwidget_bg_end_color">#000</color>
+    <color name="blue_btn_start_color">#4c92dc</color>
+    <color name="blue_btn_end_color">#215987</color>
+    <color name="blue_btn_h_start_color">#4c4c92dc</color>
+    <color name="blue_btn_h_end_color">#4c225e8f</color>
+    <color name="red_btn_start_color">#fe4646</color>
+    <color name="red_btn_end_color">#e02828</color>
+    <color name="red_btn_h_start_color">#4c4c92dc</color>
+    <color name="red_btn_h_end_color">#4c225e8f</color>
+    <color name="gray_btn_start_color">#e1e7ed</color>
+    <color name="gray_btn_end_color">#c8d0d7</color>
+    <color name="gray_btn_h_start_color">#4c4c92dc</color>
+    <color name="gray_btn_h_end_color">#4c225e8f</color>
+    <color name="list_header_bg_start_color">#909faa</color>
+    <color name="list_header_bg_end_color">#999fa5</color>
+    <color name="dark_blue_checked_start_color">#484969</color>
+    <color name="dark_blue_checked_end_color">#00012e</color>
+    <color name="dark_blue_unchecked_start_color">#5d6b8c</color>
+    <color name="dark_blue_unchecked_end_color">#14213f</color>
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <shape android:shape="rectangle" >
+            <solid android:color="@color/button_border_color1" />
+
+            <corners
+                android:bottomLeftRadius="@dimen/shape_border_radius"
+                android:bottomRightRadius="@dimen/shape_border_radius"
+                android:radius="1dip"
+                android:topLeftRadius="@dimen/shape_border_radius"
+                android:topRightRadius="@dimen/shape_border_radius" />
+        </shape>
+    </item>
+    <item
+        android:bottom="@dimen/rectangle_border"
+        android:left="@dimen/rectangle_border"
+        android:right="@dimen/rectangle_border"
+        android:top="@dimen/rectangle_border">
+        <shape android:shape="rectangle" >
+            <gradient
+                android:angle="90"
+                android:endColor="@color/gray_btn_start_color"
+                android:startColor="@color/gray_btn_end_color"
+                android:type="linear" />
+
+            <corners
+                android:bottomLeftRadius="@dimen/shape_radius"
+                android:bottomRightRadius="@dimen/shape_radius"
+                android:radius="@dimen/corner_thickness"
+                android:topLeftRadius="@dimen/shape_radius"
+                android:topRightRadius="@dimen/shape_radius" />
+        </shape>
+    </item>
+
+</layer-list>
